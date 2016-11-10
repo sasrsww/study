@@ -1,0 +1,3 @@
+Netty
+1.分配一个全局唯一的id，默认为MAC+进程id+自增的序列号+时间戳相关的数值+随机值
+id = DefaultChannelId.newInstance();
